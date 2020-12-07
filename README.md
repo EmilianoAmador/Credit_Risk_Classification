@@ -50,8 +50,12 @@ Parameters set for the model:
 <br/>
 ![Doc File](Images/RF_matrix.png)
 <br/>
+<br/>
 Imbalanced Calssification Report:
-![Doc File](Images/Balanced_Random_forest_CL-ClassificationReport.png)
+![](Images/Balanced_Random_forest_CL-ClassificationReport.png)
+<br/>
+<br/>
+<br/>
 <br/>
 **Easy Ensemble Ada Boost**
 <br/>
@@ -61,9 +65,11 @@ Parameters set for the model:
 <br/>
 ![Doc File](Images/Easy_matrix.png)
 <br/>
+<br/>
 Imbalanced Calssification Report:
 ![Doc File](Images/Easy_ensemble-ClassificationReport.png)
-
+<br/>
+<br/>
 **Conclusions:**
 ![Doc File](Images/Both_compared.png)
 
