@@ -86,6 +86,7 @@ For each resampled data above:
 **Conclusion:**
 <br/>
 ![](Images/Conclusion.png)
+The Naive Random Oversampling out-performs the rest of the sampling techniques. As seen on the table above, it has a better overall Accuracy, Recall, and Geometric Mean. This means that it is better at predicting credit risk. 
 
 ## Ensemble Learning Technique ([credit_risk_ensemble.ipynb](https://github.com/EmilianoAmador/Unit_11_Classification_Risky_Business/blob/master/Code/credit_risk_ensemble.ipynb))
 
