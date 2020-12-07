@@ -41,7 +41,7 @@ For each ensemble classifier:
 4. Generated a classification report using the `imbalanced_classification_report` from imbalanced learn.
 
 ## Results:
-## Balanced Random Forest Mode
+## Balanced Random Forest
 
 **Parameters set for the model:**
 <br/>
