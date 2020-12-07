@@ -41,13 +41,23 @@ For each ensemble classifier:
 4. Generated a classification report using the `imbalanced_classification_report` from imbalanced learn.
 
 **Results:**
-
+<br/> 
+**Balanced Random Forest Model**
+Parameters set for the model:
 ![Doc File](Images/Blanced_Random_Forest-Parameters.png)
+<br/>
 ![Doc File](Images/RF_matrix.png)
+<br/>
+Imbalanced Calssification Report:
 ![Doc File](Images/Balanced_Random_forest_CL-ClassificationReport.png)
 
+**Easy Ensemble Ada Boost**
+Parameters set for the model:
 ![Doc File](Images/EasyEnsemble-Parameters.png)
+<br/>
 ![Doc File](Images/Easy_matrix.png)
+<br/>
+Imbalanced Calssification Report:
 ![Doc File](Images/Easy_ensemble-ClassificationReport.png)
 
 **Conclusions:**
