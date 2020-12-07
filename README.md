@@ -49,6 +49,8 @@ For each ensemble classifier:
 <br/>
 <br/>
 <br/>
+**Confusion Matrix:**
+<br/>
 ![Doc File](Images/RF_matrix.png)
 <br/>
 <br/>
@@ -65,6 +67,8 @@ For each ensemble classifier:
 ![Doc File](Images/EasyEnsemble-Parameters.png)
 <br/>
 <br/>
+<br/>
+**Confusion Matrix:**
 <br/>
 ![Doc File](Images/Easy_matrix.png)
 <br/>
