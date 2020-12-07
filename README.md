@@ -41,39 +41,43 @@ For each ensemble classifier:
 4. Generated a classification report using the `imbalanced_classification_report` from imbalanced learn.
 
 ## Results:
-**Balanced Random Forest Model**
-<br/>
-<br/>
-Parameters set for the model:
+### Balanced Random Forest Mode
+
+**Parameters set for the model:**
 <br/>
 ![Doc File](Images/Blanced_Random_Forest-Parameters.png)
+<br/>
+<br/>
 <br/>
 ![Doc File](Images/RF_matrix.png)
 <br/>
 <br/>
-Imbalanced Calssification Report:
+<br/>
+**Imbalanced Calssification Report:**
 <br/>
 ![](Images/Balanced_Random_forest_CL-ClassificationReport.png)
 <br/>
 <br/>
-**Easy Ensemble Ada Boost**
-<br/>
-<br/>
+### Easy Ensemble Ada Boost
+
 Parameters set for the model:
 <br/>
 ![Doc File](Images/EasyEnsemble-Parameters.png)
 <br/>
+<br/>
+<br/>
 ![Doc File](Images/Easy_matrix.png)
 <br/>
 <br/>
-Imbalanced Calssification Report:
+<br/>
+**Imbalanced Calssification Report:**
 <br/>
 ![Doc File](Images/Easy_ensemble-ClassificationReport.png)
 <br/>
 <br/>
 
-**Conclusions:**
-<br/>
+#### Conclusions:
+
 ![Doc File](Images/Both_compared.png)
 
 > Which model had the best balanced accuracy score?
