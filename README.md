@@ -40,10 +40,18 @@ For each ensemble classifier:
 3. Printed the confusion matrix from `sklearn.metrics`.
 4. Generated a classification report using the `imbalanced_classification_report` from imbalanced learn.
 
+**Results:**
 
-<IMAGE OF RANDOM FOREST CLASSIFIER FEATURE IMPORTANCE SORTED IN DESCENDING ORDER (most important feature to least important) ALONG WITH THE FEATURE SCORE>
+![Doc File](Images/Blanced_Random_Forest-Parameters.png)
+![Doc File](Images/RF_matrix.png)
+![Doc File](Images/Balanced_Random_forest_CL-ClassificationReport.png)
 
-**Conlusion:**
+![Doc File](Images/EasyEnsemble-Parameters.png)
+![Doc File](Images/Easy_matrix.png)
+![Doc File](Images/Easy_ensemble-ClassificationReport.png)
+
+**Conclusions:**
+
 
 > Which model had the best balanced accuracy score?
 >
@@ -52,4 +60,4 @@ For each ensemble classifier:
 > Which model had the best geometric mean score?
 >
 > What are the top three features?
-
+![Doc File](Images/Features_table.png)
