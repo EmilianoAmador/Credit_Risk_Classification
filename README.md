@@ -6,7 +6,7 @@ In this project, I built and evaluated several machine-learning techniques that 
 Considering that credit risk is an imbalanced classification problem (the number of good loans is much higher than the number of at-risk loans), I employed different techniques for training and evaluating models with imbalanced classes. In the first technique, I resampled the data using four different algorithms from imbalanced-learn library. I then used this resampled data to build a logistics regression classifier and evaluated the performance of each of the four models. In the second technique, I used the unsampled data to create and evaluate two ensemble classifier, a `balanced random forest classifier` and an `easy ensemble AdaBoost classifier`. 
 
 
-#### Resampling Technique
+## Resampling Technique ([credit_risk_resampling.ipynb](https://github.com/EmilianoAmador/Unit_11_Classification_Risky_Business/blob/master/Code/credit_risk_resampling.ipynb))
 
 Used the imbalanced-learn library to resample the quarterly data from LendingClub:
 
@@ -21,13 +21,71 @@ For each resampled data above:
 3. Calculated the `confusion matrix` from `sklearn.metrics`.
 4. Printed the `imbalanced classification report` from `imblearn.metrics`.
 
-**Conclusion:**
+## Results:
 
-> Which model had the best balanced accuracy score?
->
-> Which model had the best recall score?
->
-> Which model had the best geometric mean score?
+**Parameters set for Logistic Regression Model:**
+<br/>
+![Doc File](Images/Logistic_Reg_Parameters.png)
+
+## Naive Random Oversampling
+<br/>
+**Confusion Matrix:**
+<br/>
+![Doc File](Images/NaiveOversamp_Matrix.png)
+<br/>
+<br/>
+<br/>
+**Imbalanced Calssification Report:**
+<br/>
+![](Images/NOS_Classification_Report.png)
+<br/>
+<br/>
+
+## Smote Oversampling
+<br/>
+**Confusion Matrix:**
+<br/>
+![Doc File](Images/Smote_matrix.png)
+<br/>
+<br/>
+<br/>
+**Imbalanced Calssification Report:**
+<br/>
+![](Images/Smote_CLassificiationReport.png)
+<br/>
+<br/>
+
+## Cluster Centroids Undersampling
+<br/>
+**Confusion Matrix:**
+<br/>
+![Doc File](Images/ClusterCentroidMatrix.png)
+<br/>
+<br/>
+<br/>
+**Imbalanced Calssification Report:**
+<br/>
+![](Images/Cluster_ClassificationReport.png)
+<br/>
+<br/>
+
+## Smoteen Combination Sampling
+<br/>
+**Confusion Matrix:**
+<br/>
+![Doc File](Images/SmoteenMatrix.png)
+<br/>
+<br/>
+<br/>
+**Imbalanced Calssification Report:**
+<br/>
+![](Images/Smoteen_ClassificationReport.png)
+<br/>
+<br/>
+
+**Conclusion:**
+<br/>
+![](Images/Conclusion.png)
 
 ## Ensemble Learning Technique ([credit_risk_ensemble.ipynb](https://github.com/EmilianoAmador/Unit_11_Classification_Risky_Business/blob/master/Code/credit_risk_ensemble.ipynb))
 
