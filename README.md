@@ -28,7 +28,7 @@ For each resampled data above:
 ![Doc File](Images/Logistic_Reg_Parameters.png)
 
 ## Naive Random Oversampling
-<br/>
+
 **Confusion Matrix:**
 <br/>
 ![Doc File](Images/NaiveOversamp_Matrix.png)
@@ -42,7 +42,7 @@ For each resampled data above:
 <br/>
 
 ## Smote Oversampling
-<br/>
+
 **Confusion Matrix:**
 <br/>
 ![Doc File](Images/Smote_matrix.png)
@@ -56,7 +56,7 @@ For each resampled data above:
 <br/>
 
 ## Cluster Centroids Undersampling
-<br/>
+
 **Confusion Matrix:**
 <br/>
 ![Doc File](Images/ClusterCentroidMatrix.png)
@@ -70,7 +70,7 @@ For each resampled data above:
 <br/>
 
 ## Smoteen Combination Sampling
-<br/>
+
 **Confusion Matrix:**
 <br/>
 ![Doc File](Images/SmoteenMatrix.png)
