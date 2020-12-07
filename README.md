@@ -10,9 +10,9 @@ Considering that credit risk is an imbalanced classification problem (the number
 
 Used the imbalanced-learn library to resample the quarterly data from LendingClub:
 
-1. Oversample the data using the `Naive Random Oversampler` and `SMOTE` algorithms.
-2. Undersample the data using the `Cluster Centroids` algorithm.
-3. Over- and under-sample using a combination `SMOTEENN` algorithm.
+1. Oversampled the data using the `Naive Random Oversampler` and `SMOTE` algorithms.
+2. Undersampled the data using the `Cluster Centroids` algorithm.
+3. Over- and under-sampled using a combination `SMOTEENN` algorithm.
 
 For each resampled data above:
 
