@@ -42,7 +42,7 @@ For each ensemble classifier:
 
 **Results:**
 <br/> 
-##### Balanced Random Forest Model
+Balanced Random Forest Model
 <br/>
 Parameters set for the model:
 <br/>
