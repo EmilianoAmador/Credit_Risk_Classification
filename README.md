@@ -52,6 +52,7 @@ Parameters set for the model:
 <br/>
 <br/>
 Imbalanced Calssification Report:
+<br/>
 ![](Images/Balanced_Random_forest_CL-ClassificationReport.png)
 <br/>
 <br/>
@@ -67,6 +68,7 @@ Parameters set for the model:
 <br/>
 <br/>
 Imbalanced Calssification Report:
+<br/>
 ![Doc File](Images/Easy_ensemble-ClassificationReport.png)
 <br/>
 <br/>
