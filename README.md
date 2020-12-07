@@ -56,8 +56,6 @@ Imbalanced Calssification Report:
 ![](Images/Balanced_Random_forest_CL-ClassificationReport.png)
 <br/>
 <br/>
-<br/>
-<br/>
 ##### Easy Ensemble Ada Boost
 <br/>
 Parameters set for the model:
