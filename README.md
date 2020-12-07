@@ -29,7 +29,7 @@ For each resampled data above:
 >
 > Which model had the best geometric mean score?
 
-#### Ensemble Learning Technique
+#### Ensemble Learning Technique ([credit_risk_ensemble.ipynb](https://github.com/EmilianoAmador/Unit_11_Classification_Risky_Business/blob/master/Code/credit_risk_ensemble.ipynb)
 
 I trained and compared two different ensemble classifiers to predict loan risk and evaluate each model. I used the `balanced random forest classifier` and the `easy ensemble AdaBoost classifier`, and used 100 estimators for each. 
 
