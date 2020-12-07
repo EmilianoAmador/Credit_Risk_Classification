@@ -51,7 +51,7 @@ For each ensemble classifier:
 ![Doc File](Images/Easy_ensemble-ClassificationReport.png)
 
 **Conclusions:**
-
+![Doc File](Images/Both_compared.png)
 
 > Which model had the best balanced accuracy score?
 >
