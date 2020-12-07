@@ -43,16 +43,20 @@ For each ensemble classifier:
 **Results:**
 <br/> 
 **Balanced Random Forest Model**
+<br/>
 Parameters set for the model:
+<br/>
 ![Doc File](Images/Blanced_Random_Forest-Parameters.png)
 <br/>
 ![Doc File](Images/RF_matrix.png)
 <br/>
 Imbalanced Calssification Report:
 ![Doc File](Images/Balanced_Random_forest_CL-ClassificationReport.png)
-
+<br/>
 **Easy Ensemble Ada Boost**
+<br/>
 Parameters set for the model:
+<br/>
 ![Doc File](Images/EasyEnsemble-Parameters.png)
 <br/>
 ![Doc File](Images/Easy_matrix.png)
