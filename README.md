@@ -60,7 +60,7 @@ For each ensemble classifier:
 <br/>
 ### Easy Ensemble Ada Boost
 
-Parameters set for the model:
+**Parameters set for the model:**
 <br/>
 ![Doc File](Images/EasyEnsemble-Parameters.png)
 <br/>
