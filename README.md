@@ -40,9 +40,10 @@ For each ensemble classifier:
 3. Printed the confusion matrix from `sklearn.metrics`.
 4. Generated a classification report using the `imbalanced_classification_report` from imbalanced learn.
 
-**Results:**
+## Results:
 <br/> 
-Balanced Random Forest Model
+**Balanced Random Forest Model**
+<br/>
 <br/>
 Parameters set for the model:
 <br/>
@@ -56,7 +57,8 @@ Imbalanced Calssification Report:
 ![](Images/Balanced_Random_forest_CL-ClassificationReport.png)
 <br/>
 <br/>
-Easy Ensemble Ada Boost
+**Easy Ensemble Ada Boost**
+<br/>
 <br/>
 Parameters set for the model:
 <br/>
