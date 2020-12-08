@@ -1,9 +1,11 @@
 # Risky Business
 
 ![Credit Risk](Images/credit-risk.jpg)
-In this project, I built and evaluated several machine-learning techniques that will be used to predict credit risk for peer-to-peer lending companies. These types of companies, such as LendingCLub or Prosper, allow investors make loans to other people without the use of banks. This type of lending can be very risky without the right machine-learning model, so finding the right algorithm will allow them mitigate risk and incentivise more investments.
+In this project, I constructed and evaluated several machine-learning techniques used to predict credit risk for peer-to-peer lending companies. These types of companies, such as LendingClub or Prosper, allow investors to make loans to other people without the use of banks. This type of lending can be high-risk without the right machine-learning model, so finding the correct algorithm will allow them to mitigate risk and incentivize more investments.
 
-Considering that credit risk is an imbalanced classification problem (the number of good loans is much higher than the number of at-risk loans), I employed different techniques for training and evaluating models with imbalanced classes. In the first technique, I resampled the data using four different algorithms from imbalanced-learn library. I then used this resampled data to build a logistics regression classifier and evaluated the performance of each of the four models. In the second technique, I used the unsampled data to create and evaluate two ensemble classifier, a `balanced random forest classifier` and an `easy ensemble AdaBoost classifier`. 
+Considering that credit risk is an imbalanced classification problem (the number of good loans is much higher than the number of at-risk loans), I employed different techniques for training and evaluating models with imbalanced classes. In the first technique, I resampled the data using four different algorithms from the imbalanced-learn library. I then used this resampled data to build a logistics regression classifier and evaluated the performance of each of the four models. 
+
+In the second technique, I used the unsampled data to create and evaluate two ensemble classifier, a `Balanced Random Forest classifier`, and an `Easy Ensemble AdaBoost classifier`. 
 
 
 ## Resampling Technique ([credit_risk_resampling.ipynb](https://github.com/EmilianoAmador/Unit_11_Classification_Risky_Business/blob/master/Code/credit_risk_resampling.ipynb))
