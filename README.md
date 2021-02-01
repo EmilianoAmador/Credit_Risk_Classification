@@ -1,14 +1,14 @@
 # Risky Business
 
 ![Credit Risk](Images/credit-risk.jpg)
-In this project, I constructed and evaluated several machine-learning techniques used to predict credit risk for peer-to-peer lending companies. These types of companies, such as LendingClub or Prosper, allow investors to make loans to other people without the use of banks. This type of lending can be high-risk without the right machine-learning model, so finding the correct algorithm will allow them to mitigate risk and incentivize more investments.
+In this project, I constructed and evaluated several machine-learning techniques used to predict credit risk for peer-to-peer lending companies. Companies, such as LendingClub or Prosper, allow investors to make loans to other people without the use of banks. This type of lending can be high-risk without the right machine-learning model, so finding the correct algorithm will allow them to mitigate risk and incentivize more investments among their users.
 
 Considering that credit risk is an imbalanced classification problem (the number of good loans is much higher than the number of at-risk loans), I employed different techniques for training and evaluating models with imbalanced classes. In the first technique, I resampled the data using four different algorithms from the imbalanced-learn library. I then used this resampled data to build a logistics regression classifier and evaluated the performance of each of the four models. 
 
 In the second technique, I used the unsampled data to create and evaluate two ensemble classifier, a `Balanced Random Forest classifier`, and an `Easy Ensemble AdaBoost classifier`. 
 
 
-## Resampling Technique ([credit_risk_resampling.ipynb](https://github.com/EmilianoAmador/Unit_11_Classification_Risky_Business/blob/master/Code/credit_risk_resampling.ipynb))
+## Resampling Technique Overview ([credit_risk_resampling.ipynb](https://github.com/EmilianoAmador/Unit_11_Classification_Risky_Business/blob/master/Code/credit_risk_resampling.ipynb))
 
 Used the imbalanced-learn library to resample the quarterly data from LendingClub:
 
@@ -33,11 +33,18 @@ For each resampled data above:
 
 **Confusion Matrix:**
 <br/>
+Here, we can see how many times the model predicted high risk and low risk correctly as well as incorrectly. The first number, 76, is the True Positive (TP) it represents the number of times the model predicted high risk and turned out to be truly high risk. The number below that, 4493, is the True Negative (TN) and represents the number of times the model correctly predicted it was a low risk. The second column is the all the ones the model predicted wrong. The False Positive (FP), 25, is the number of times the model predicted high risk and turned out not to be a low risk; while the False Negative (FN), 12611, is the number the model predicted low risk but turned out to be high risk. 
+
+<br/>
 ![Doc File](Images/NaiveOversamp_Matrix.png)
 <br/>
 <br/>
 <br/>
 **Imbalanced Calssification Report:**
+<br/>
+The classification report demonstrates a better overview of what the confusion matrix means in terms of efficiency. The precision (pre) is the percentage of individuals that the model correctly predicted to be high risk. In other words, it is the TP divided by the sum of TP and FP. The recall (rec), unlike the precision, demonstrates the percentage of individuals the model correctly predicted to be high risk and low risk. The f1-score is the harmonic mean between the precision and the recall. It represents the frequency at which the model predicts high risk or low risk correctly. 
+<br/>
+The last row of numbers represents the accuracy of the model's scores. Below it states that the model is 99 percent accurate at determining high risk; however, this number is deceiving when it comes to imbalanced classes because of the accuracy paradox. This paradox states that in a dataset of 1 high risk and 100 low risks individuals the model can get away with just predicting low risk all the time and receive a great accuracy score; however, when it guesses a high-risk wrong there can be costly repercussions. For this, we use the index of imbalanced accuracy (iba) to give us a more accurate representation of the accuracy for the imbalanced dataset and eliminates the influence from the dominating class (ie the 100 low-risk individuals).
 <br/>
 ![](Images/NOS_Classification_Report.png)
 <br/>
@@ -145,6 +152,11 @@ For each ensemble classifier:
 #### Conclusions:
 
 ![Doc File](Images/Both_compared.png)
+<br/>
+<br/>
+When it comes to imbalanced classes such as credit risk, it is important to use multiple models as well as multiple measures to assess their accuracy. No one model should be used blindly when assessing credit risk because these algorithms hardly take into account spontaneous factors such as world events that would influence a person's ability to pay back a loan. For example, a person could be low risk, but if a large sudden unemployment rate causes them to lose their source of income then the model predicted wrong. This is due to the model's inability to predict future sudden events. Therefore, investors need to use the models as support to make a decision but not as the sole decision maker.  Investors should find a weighted balance between a model's decision and their judgement from environmental factors that may prove the model wrong. 
+<br/>
+Below are factors that can help assess risk for investors in order of importance. 
 <br/>
 <br/>
 ![Doc File](Images/Features_table.png)
