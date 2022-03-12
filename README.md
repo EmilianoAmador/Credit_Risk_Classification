@@ -36,7 +36,9 @@ For each resampled data above:
 Here, we can see how many times the model predicted high risk and low risk correctly as well as incorrectly. The first number, 76, is the True Positive (TP) it represents the number of times the model predicted high risk and turned out to be truly high risk. The number below that, 4493, is the True Negative (TN) and represents the number of times the model correctly predicted it was a low risk. The second column is the all the ones the model predicted wrong. The False Positive (FP), 25, is the number of times the model predicted high risk and turned out not to be a low risk; while the False Negative (FN), 12611, is the number the model predicted low risk but turned out to be high risk. 
 
 <br/>
+
 ![Doc File](Images/NaiveOversamp_Matrix.png)
+
 <br/>
 <br/>
 <br/>
